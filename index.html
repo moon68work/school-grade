@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let studentScore = Number(prompt("Please input your score to find out your grade."));
+
+
+console.log(studentScore)
+
+function getGrade(studentScore) {
+    let studentGrade; 
+    if (25 < studentScore && student<= 30) {
+        studentGrade = "A"
+        return studentGrade;
+    }
+    else if (20 < studentScore && studentScore <= 25) {
+        studentGrade = "B"
+        return studentGrade;
+    }
+    else if (15 < studentScore && studentScore <= 20) {
+        studentGrade = "C"
+        return studentGrade;
+    } 
+    else if (10 < studentScore && studentScore <= 15) {
+        studentGrade = "D"
+        return studentGrade;
+    } 
+    else if (5 < studentScore && studentScore <= 10) {
+        studentGrade = "E"
+        return studentGrade;
+    } 
+    else if (0 < studentScore && studentScore <= 5) {
+        studentGrade = "F"
+        return studentGrade;
+    }
+    
+}
+
+alert(getGrade(studentScore));
+    </script>
+</body>
+</html>
